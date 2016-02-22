@@ -7,6 +7,8 @@ $ npm install
 $ bower install
 ````
 
+You'll have to create the folders __js__ and __css__ at __app/assets__
+
 ## Starting playground
 ```
 $ gulp start
