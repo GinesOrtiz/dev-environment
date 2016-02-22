@@ -1,0 +1,25 @@
+{
+  "name": "AngularJS-Vitamin",
+  "description": "Full angularJS base including Auth with different roles and dynamic locale and layouts",
+  "main": "app/index.html",
+  "moduleType": [
+    "globals"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/GinesOrtiz/dev-environment",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.5",
+    "font-awesome": "fontawesome#^4.5.0"
+  },
+  "resolutions": {
+    "angular": "1.4.9"
+  }
+}
