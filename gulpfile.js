@@ -85,9 +85,8 @@ gulp.task('vendors:css', function () {
 
 gulp.task('vendors:js', function () {
     return gulp.src([
-            'bower_components/bootstrap/dist/bootstrap.min.js',
             'bower_components/jquery/dist/jquery.min.js',
-            'bower_components/jquery/dist/jquery.min.js'
+            'bower_components/bootstrap/dist/js/bootstrap.min.js'
         ])
         .pipe(concat('vendors.js'))
         .pipe(uglify())
