@@ -1,1 +1,5 @@
-// JS Code here
+var app = {
+    init : function(){
+
+    }
+};
